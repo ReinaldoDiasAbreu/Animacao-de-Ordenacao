@@ -1,0 +1,60 @@
+<!-- 
+	PROJETO DE ANIMAÇÃO DE ALGORITMOS DE ORDENAÇÃO
+	IFNMG - INSTITUTO FEDERAL DO NORTE DE MINAS GERIAS
+	CIÊNCIA DA COMPUTAÇÃO
+	REINALDO JUNIO DIAS DE ABREU
+	CAUÃ RIBEIRO DA COSTA AGUIAR
+
+	MONTES CLAROS - MG - BRASIL
+	16 DE DEZEMBRO DE 2018
+	Versão: 10.0
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Algoritmos de Ordenação</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="jQuery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="jQuery/jquery.animate-colors.js"></script>	
+</head>
+<body>
+
+	<section class="cabecalho">
+		<div id="coluna">
+			<h1>Algoritmos de Ordenação</h1>
+			<p>Este site ordena de forma animada numeros usando o algoritmo de ordenação escolhido e o nível da velocidade.</p>
+			<p>É possível visualizar o passo a passo da execução pelo console do navegador. A cada nova ordenação reinicie a página.</p>
+
+			<form id="formulario">
+			    <input type="text" id="campo" size="50" placeholder="Digite o vetor. ex:(1,2,3,4,...)">
+			    <input type="text" id="velocidade" size="2" placeholder="Speed">
+			    <input type="button" id="botaos" value="Selection Sort" onclick="selection_sort()">
+			    <input type="button" id="botaoq" value="Quick Sort" onclick="iniciar_quick()">
+			    <input type="button" id="botao" value="Reiniciar" onclick="reiniciar()">
+			</form>
+
+		</div>
+		<div id="coluna" class="coluna2">
+			<h2>Desenvolvido Por:</h2>
+			<p style="font-weight: bold">Reinaldo Junio Dias de Abreu</p>
+			<p style="font-weight: bold; margin-bottom: 10px">Cauã Ribeiro da Costa Aguiar</p>
+			<p style="margin-bottom: 10px">Ciência da Computação - IFNMG - Montes Claros - 2018</p>
+			<p>Professor AEDS II - Wagner Barros</p>
+			<a href="manual.pdf" target="_blank">MANUAL DE USO</a>
+		</div>
+
+	</section>
+	<div id="status">
+		<div id="TamanhoVetor"><!-- AQUI APARECERÁ O TAMANHO DO VETOR --></div>
+		<div id="pivoAtual"><!-- AQUI APARECERÁ OS PIVOS --></div>
+		<div id="trocas"> <!-- AQUI APARECERÁ AS TROCAS --></div>
+	</div>
+		
+	<div id="grafico">
+		<!-- AQUI APARECERÁ OS VALORES DO VETOR -->			
+	</div>
+
+</body>
+</html>

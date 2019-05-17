@@ -1,0 +1,137 @@
+/*
+FOLHA DE ESTILO DO PROJETO
+Determina as propriedades visuais dos elementos da página.
+*/
+
+/* DEFINE O CABEÇALHO DA PÁGINA */
+.cabecalho
+{
+	display: block;
+	border: 2px #666666 solid;
+	border-radius: 5px;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+/* DEFINE O ESTILO DO TÍTULO DA PÁGINA */
+.cabecalho h1
+{
+	font-family: Arial;
+	font-size: 18pt;
+	margin-top: 0px;
+}
+.cabecalho h2
+{
+	font-family: Arial;
+	font-size: 13pt;
+	margin-bottom: 10px;
+}
+/* DEFINE O ESTILO DO CABEÇALHO DA PÁGINA */
+.cabecalho #coluna
+{
+	display: inline-block;
+	margin-right: 10px;
+}
+.cabecalho .coluna2
+{
+	border-left: 2px #666666 solid;
+	padding: 10px;
+}
+.cabecalho form
+{
+	margin-top: 10px;
+	font-family: Arial;
+	font-size: 12pt;
+}
+.cabecalho input
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Arial;
+	font-size: 12pt;
+	border-radius: 5px;
+}
+.cabecalho p
+{
+	font-family: Arial;
+	font-size: 11pt;
+	margin: 1px;
+}
+.coluna2 a
+{
+	font-family: Arial;
+	font-size: 12pt;
+	margin-top: 0px;
+	float: right;
+	font-weight: bold;
+}
+/* DEFINE ELEMENTOS DO GRÁFICO DA PÁGINA */
+#grafico
+{
+	margin-top: 1cm;
+	position: absolute;
+}
+#grafico .status #status
+{
+	font-family: Arial;
+	font-size: 12pt;
+	margin-top: 0px;
+	display: inline-block;
+	margin-right: 5px;
+}
+#grafico .status #operacao
+{
+	font-family: Arial;
+	font-size: 12pt;
+	margin-top: 0px;
+	display: inline-block;
+	margin-right: 5px;
+	color: #FF0000;
+}
+
+#grafico p
+{
+	display: inline-block;
+	border: 2px #666666 solid;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 14px;
+	margin: 3px;
+	font-weight: bold;
+}
+#status
+{
+	margin-top: 10pt;
+	margin-left: 10pt;
+	display: inline-block;
+}
+#TamanhoVetor
+{
+	font-family: Arial;
+	font-size: 15pt;
+	margin-bottom: 5px;
+}
+#trocas
+{
+	font-family: Arial;
+	font-size: 15pt;
+}
+#pivoAtual
+{
+	font-family: Arial;
+	font-size: 15pt;
+	margin-bottom: 5px;
+}
+
+.bloco{
+	display: inline-block;
+	border: 2px #666666 solid;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 14px;
+	margin: 3px;
+	font-weight: bold;
+	font-family: Arial;
+	float: left;
+}
